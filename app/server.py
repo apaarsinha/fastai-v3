@@ -9,8 +9,8 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://drive.google.com/file/d/1aa8VbStzjcHL0dTnX66hD0_H8fgJW0hP/view?usp=sharing'
-export_file_name = 'trained_model.pkl'
+export_file_url = 'https://drive.google.com/file/d/1NogyG7kDhIYHn5VFgubKHUZkpFzJOf3u/view?usp=sharing'
+export_file_name = 'export.pkl'
 
 classes = ['Abyssinian',
  'Bengal',
